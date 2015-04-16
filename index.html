@@ -35,7 +35,7 @@ function star(){
 }
 function end(){
 	// exitFullScreen();
-	clearV();
+	clearV(v);
 }
 var v;
 function vibrate(){
@@ -44,7 +44,7 @@ function vibrate(){
 			navigator.vibrate(1000);
 	},1500);
 }
-function clearV(){
+function clearV(v){
 	clearInterval(v);
 }
 function fullScreen() {
